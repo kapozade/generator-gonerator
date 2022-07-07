@@ -1,0 +1,35 @@
+info:
+  contact: {}
+  description: API documentation
+  title: <%=appname%> API
+  version: "1.0"
+paths:
+  /healthcheck:
+    get:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+        "500":
+          description: ""
+      summary: Checks healtcheck of API
+      tags:
+      - HealthCheck
+  /readiness:
+    get:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+        "500":
+          description: ""
+      summary: Gets API Readiness
+      tags:
+      - Readiness
+swagger: "2.0"

@@ -1,5 +1,5 @@
 # gonerator
-A simple Go microservice boilerplate.
+A simple Go microservice boilerplate. Swagger included.
 
 ## Usage
 Probably you have already done but it's good to remind one thing to you before diving into boilerplate generation. You should have already installed Go and had $GOPATH on your environment.

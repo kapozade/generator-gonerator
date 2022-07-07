@@ -6,14 +6,14 @@ Probably you have already done but it's good to remind one thing to you before d
 
 After the assumption made above, we are good to go creating our first microservice boilerplate.
 
-1. Install all dependencies
-```
-$ npm install
-```
-
-2. Change directory and link
+1. After clonning the repository, it's best to land on the main directory. 
 ```
 $ cd generator-gonerator
+```
+
+2. Install all dependencies and link
+```
+$ npm install
 $ npm link
 ```
 

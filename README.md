@@ -21,3 +21,8 @@ $ npm link
 ```
 $ yo gonerator
 ```
+
+After you applied the steps above, go to your project directory and run below command so as to install dependencies and run your mini API.
+```
+$ make
+```

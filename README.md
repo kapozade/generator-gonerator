@@ -11,8 +11,13 @@ After the assumption made above, we are good to go creating our first microservi
 $ npm install
 ```
 
-2. Run the boilerplate generator.
+2. Change directory and link
 ```
-$ yo go
+$ cd generator-gonerator
+$ npm link
 ```
 
+3. Run the boilerplate generator.
+```
+$ yo gonerator
+```
